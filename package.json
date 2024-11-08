@@ -1,0 +1,34 @@
+{
+  "name": "infinite-scroll",
+  "private": false,
+  "version": "0.0.1",
+  "homepage": "https://tima1702.github.io/infinite-scroll",
+  "scripts": {
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@eslint/js": "^9.14.0",
+    "@types/eslint": "^9.6.1",
+    "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "eslint": "^9.14.0",
+    "eslint-plugin-vue": "^9.30.0",
+    "globals": "^15.12.0",
+    "jsdoc": "^4.0.4",
+    "jsdoc-babel": "^0.5.0",
+    "jsdoc-vuejs": "^4.0.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.13.0",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
